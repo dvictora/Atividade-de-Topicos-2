@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Abra o terminal e execute o comando:
 
 ```bash
-docker build -t gerenciador-tarefas .
+docker build -t gerenciador-tarefas . --load
 ```
 
 ## Executando o container 
@@ -25,7 +25,10 @@ Logo em seguida, execute este comando:
 docker run -d -p 5000:5000 --name app-tarefas gerenciador-tarefas
 ```
 
-## Local host 
+## Localhost 
 
-Depois digite no seu navegador 
-"http://localhost:5000"
+Abra o navegador e acesse:
+
+```
+http://localhost:5000
+```
