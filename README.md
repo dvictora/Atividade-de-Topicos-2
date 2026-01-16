@@ -3,25 +3,25 @@ Atividade de Tópicos em sistemas de informação 2
 
 ## Atenção
 
-Instalem todas as dependencias com o comando
+Instale todas as dependências com o comando:
 
-``` 
+```bash
 pip install -r requirements.txt
 ```
 
 ## Construindo a imagem 
 
-abral o terminal e execute o comando
+Abra o terminal e execute o comando:
 
-```
+```bash
 docker build -t gerenciador-tarefas .
 ```
 
 ## Executando o container 
 
-logo em seguida coloque este comando 
+Logo em seguida, execute este comando:
 
-```
+```bash
 docker run -d -p 5000:5000 --name app-tarefas gerenciador-tarefas
 ```
 
